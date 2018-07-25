@@ -1,7 +1,4 @@
-module.exports =
-__NEXT_REGISTER_PAGE('/', function() {
-          var comp =
-      webpackJsonp([4],{
+webpackHotUpdate(4,{
 
 /***/ "./node_modules/@babel/runtime/core-js/json/stringify.js":
 /***/ (function(module, exports, __webpack_require__) {
@@ -901,37 +898,6 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/harmony-module.js":
-/***/ (function(module, exports) {
-
-module.exports = function(originalModule) {
-	if(!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if(!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true,
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -951,28 +917,12 @@ var Index = function Index() {
       fileName: _jsxFileName,
       lineNumber: 3
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/about",
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, "About")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, " Hello Next ")));
+  }, " Hello Next "));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -996,18 +946,7 @@ var Index = function Index() {
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
-/***/ }),
-
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/index.js");
-
-
 /***/ })
 
-},[3])
-          return { page: comp.default }
-        })
-      ;
-//# sourceMappingURL=index.js.map
+})
+//# sourceMappingURL=4.e12070393d6ce3e4b77c.hot-update.js.map
